@@ -1,0 +1,279 @@
+# ninja log v5
+9	226	7100717289686223	project_elf_src_esp32.c	2dd7a44319de01e6
+9	226	7100717289686223	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/project_elf_src_esp32.c	2dd7a44319de01e6
+23	329	7100717291117642	esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/eri.c.obj	d0de47273912297f
+32	474	7100717292663916	esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/xt_trax.c.obj	be9b64a9edfc7c8e
+52	486	7100717292394630	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/adc_periph.c.obj	db3442fcac706051
+61	522	7100717293217632	esp-idf/soc/CMakeFiles/__idf_soc.dir/dport_access_common.c.obj	b3cb28ce04cf430c
+71	541	7100717293427067	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/dac_periph.c.obj	291f3134a93eedec
+126	586	7100717293596652	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/interrupts.c.obj	e01174f0a0bda7ba
+158	597	7100717293616557	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdm_periph.c.obj	7dcefc94fd3839cb
+147	608	7100717293666433	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/dport_access.c.obj	792653df60334b89
+137	661	7100717293516835	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/i2c_periph.c.obj	ef8539f5d3533b5b
+178	794	7100717293806051	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/rmt_periph.c.obj	a85a763c138ff3f
+227	834	7100717294155160	CMakeFiles/bootloader.elf.dir/project_elf_src_esp32.c.obj	b4757d660ce606b7
+81	867	7100717294125243	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/gpio_periph.c.obj	1c115135e9ae62e7
+42	886	7100717294339824	esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.obj	78027eb035da4770
+169	896	7100717294559237	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/i2s_periph.c.obj	a5e10ba097cba0d5
+476	908	7100717296010564	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/lcd_periph.c.obj	a2aad72073c878c
+487	925	7100717296150233	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/rtc_io_periph.c.obj	e2a4a0d19c007f9f
+335	966	7100717296354867	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/pcnt_periph.c.obj	c65bccfad63639be
+542	976	7100717297132788	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/ledc_periph.c.obj	b1c4305f9e8b0696
+523	987	7100717297696430	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/mcpwm_periph.c.obj	ad8dac9b1d00b798
+587	1028	7100717298290073	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdio_slave_periph.c.obj	61e73bbabab406c8
+598	1090	7100717298878495	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/uart_periph.c.obj	e1a37b5922aa3a86
+765	1194	7100717299422274	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/touch_sensor_periph.c.obj	6e03c334689d9e7c
+609	1222	7100717299561853	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/timer_periph.c.obj	524d554e40da9315
+835	1233	7100717299871029	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/spi_periph.c.obj	614b58c4557f1b00
+795	1242	7100717300524494	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdmmc_periph.c.obj	12abc330a870773e
+913	1413	7100717301776347	esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/efuse_hal.c.obj	940f9bfab0149f0
+898	1456	7100717302155396	esp-idf/hal/CMakeFiles/__idf_hal.dir/mpu_hal.c.obj	2e2d6b88392c351b
+887	1504	7100717301327546	esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/esp_app_desc.c.obj	33c6d0b8638a4ae2
+967	1621	7100717303522088	esp-idf/hal/CMakeFiles/__idf_hal.dir/mmu_hal.c.obj	834c60c722c7a1b4
+926	1633	7100717304040715	esp-idf/hal/CMakeFiles/__idf_hal.dir/efuse_hal.c.obj	2d58b384c335a0c6
+988	1742	7100717305033286	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_clock_init.c.obj	aae1f847cd1e785
+978	1860	7100717306320242	esp-idf/hal/CMakeFiles/__idf_hal.dir/wdt_hal_iram.c.obj	df72f6b5d46c651b
+1141	1903	7100717306270375	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_mem.c.obj	c1e213456e24db47
+1030	1957	7100717306629421	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_common.c.obj	3dea37ccee1be6c0
+1234	2141	7100717307442498	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_random.c.obj	f0561ca4c983bdf2
+1505	2219	7100717310135767	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/flash_encrypt.c.obj	fcffd53aecc581da
+1195	2231	7100717310075927	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_common_loader.c.obj	86a2e1fae6ab50ed
+1223	2291	7100717310280609	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/bootloader_flash.c.obj	8cb8f0c0e144549b
+1623	2396	7100717311188199	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/secure_boot.c.obj	37f7436294142642
+1458	2407	7100717311462609	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_random_esp32.c.obj	a414c893cec44d98
+1633	2485	7100717312804225	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/flash_partitions.c.obj	fe0947bdab798e
+1243	2613	7100717313756898	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_utility.c.obj	20475891c7fe2f1b
+2142	2749	7100717315323130	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_clock_loader.c.obj	d44ad81b752ba91d
+1414	2846	7100717315253314	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp_image_format.c.obj	c790bb18e3e51f56
+868	2896	7100717315572461	esp-idf/micro-ecc/CMakeFiles/__idf_micro-ecc.dir/uECC_verify_antifault.c.obj	ddd8af8c0432f30b
+1743	2956	7100717315871663	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/flash_qio_mode.c.obj	be0d7e22c36d339f
+1904	2967	7100717316265786	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_efuse.c.obj	351a8cc68f28006a
+2056	2980	7100717316973891	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_panic.c.obj	e6b8d334b3e5b9ae
+2293	2992	7100717317527633	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_console_loader.c.obj	938551ce501d4d61
+1862	3034	7100717318056238	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/bootloader_flash_config_esp32.c.obj	c1bc2d9e0a00d6d5
+2233	3212	7100717319891722	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_console.c.obj	a6033f851eb6968d
+2415	3299	7100717320774578	esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32/esp_efuse_utility.c.obj	e1d5e644ecdf6207
+2397	3311	7100717321023908	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp32/bootloader_sha.c.obj	f025a70099a2507
+2220	3382	7100717321223439	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_init.c.obj	806cd61524f9de40
+2487	3482	7100717321926714	esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/efuse_controller/keys/without_key_purposes/three_key_blocks/esp_efuse_api_key.c.obj	3b12c1cf28f72e4c
+2957	3494	7100717322570183	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp32/bootloader_soc.c.obj	54a7c587b8cf73c6
+2751	3506	7100717322330823	esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_fields.c.obj	154362469d9ff2a5
+2969	3658	7100717324385721	esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32/esp_efuse_table.c.obj	33992c2d596c759a
+2615	3669	7100717323792142	esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_utility.c.obj	282042e87e9e3d2
+3036	3678	7100717324655003	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/cpu.c.obj	18cfcfe8688229cf
+2993	3716	7100717325388246	esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/esp_err.c.obj	36bc55a6add38fe1
+2847	3843	7100717325258562	esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_api.c.obj	53ea1fa61638ce4a
+2897	3890	7100717325557794	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp32/bootloader_esp32.c.obj	14a9f1a91fe9b215
+2982	3915	7100717325113816	esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32/esp_efuse_fields.c.obj	7ff7e1089211688e
+3224	3934	7100717326939321	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_memory_utils.c.obj	f6b77771fa3290d7
+3300	4128	7100717328595321	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_init.c.obj	84a65313c6f3dca7
+3483	4187	7100717329877111	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_pm.c.obj	83016ab81148c44f
+3495	4323	7100717331188835	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_clk_init.c.obj	78917636eba27823
+3429	4350	7100717331258650	esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/esp_err_to_name.c.obj	4b57495c22844666
+3680	4383	7100717331353561	esp-idf/main/CMakeFiles/__idf_main.dir/bootloader_start.c.obj	1c29d85d21251cb3
+3507	4439	7100717331802357	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/chip_info.c.obj	e41e081832e30a68
+3916	4443	7100717331642791	esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_regi2c.c.obj	ba55040e02257849
+3844	4449	7100717331692656	esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_sys.c.obj	e700f2f2c84a7b55
+3905	4455	7100717332141501	esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_uart.c.obj	e97321634588a66d
+3935	4460	7100717332021777	esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_longjmp.S.obj	2b526c2cf624131d
+3717	4469	7100717331842370	esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_crc.c.obj	b567561c50d2fda7
+3659	4562	7100717333697684	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_time.c.obj	841b5d98bb8525b1
+3670	4593	7100717333817365	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_sleep.c.obj	ba8ddd9444092375
+3312	4659	7100717334430928	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_clk.c.obj	95c91841cc4c88ed
+4129	4874	7100717336705253	esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_efuse.c.obj	82eb4e090e4ef7d2
+4385	4906	7100717337104187	esp-idf/log/CMakeFiles/__idf_log.dir/log.c.obj	1c243abda44c96c2
+4373	4930	7100717337498345	esp-idf/log/CMakeFiles/__idf_log.dir/log_noos.c.obj	f22925348031a9d9
+4324	4962	7100717337737703	esp-idf/log/CMakeFiles/__idf_log.dir/log_buffers.c.obj	8dd605c258bc84a3
+4188	5039	7100717338451094	esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_spiflash.c.obj	ebd5585d58280311
+4963	5276	7100717340954824	esp-idf/log/liblog.a	69ef808058558b60
+5276	5523	7100717343179261	esp-idf/esp_rom/libesp_rom.a	5b4c5c3166bf1ab1
+5524	5828	7100717346259289	esp-idf/esp_common/libesp_common.a	b1b7b06eb385bb70
+5829	6077	7100717348967490	esp-idf/esp_hw_support/libesp_hw_support.a	78c98f5c5ec69868
+6078	6423	7100717351875125	esp-idf/esp_system/libesp_system.a	489b1017cc3696fd
+6424	6828	7100717355875010	esp-idf/efuse/libefuse.a	599f94fd46d9eedd
+6829	7188	7100717359525944	esp-idf/bootloader_support/libbootloader_support.a	c4491e7c3cc261df
+7189	7434	7100717362593153	esp-idf/esp_app_format/libesp_app_format.a	bb8aa7766d4179ce
+7444	7771	7100717365710221	esp-idf/hal/libhal.a	4bddac42ee2924f5
+7803	8002	7100717367884688	esp-idf/micro-ecc/libmicro-ecc.a	d91c184912ab8cb1
+8009	8265	7100717370762409	esp-idf/soc/libsoc.a	45949b0225841ec4
+8280	8500	7100717373106422	esp-idf/xtensa/libxtensa.a	8a2da8b249c72c3b
+8500	8662	7100717374762275	esp-idf/main/libmain.a	42665b8592651498
+8662	9333	7100717380767031	bootloader.elf	5373aa27f93651b5
+9334	10317	7100717391043102	.bin_timestamp	e94e64144837547e
+9334	10317	7100717391043102	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/.bin_timestamp	e94e64144837547e
+10318	10576	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+10318	10576	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+10	90	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+10	90	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+7	80	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+7	80	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+10	99	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+10	99	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+8	82	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+8	82	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+7	80	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+7	80	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+11	87	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+11	87	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+6	80	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+6	80	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+7	85	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+7	85	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+10	82	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+10	82	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+7	87	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+7	87	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+7	95	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+7	95	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+7	82	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+7	82	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+10	94	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+10	94	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+12	85	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+12	85	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+7	87	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+7	87	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+25	253	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+25	253	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+12	93	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+12	93	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+8	84	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+8	84	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+8	83	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+8	83	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+7	82	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+7	82	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+8	89	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+8	89	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+8	90	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+8	90	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+8	87	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+8	87	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+9	93	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+9	93	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+8	83	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+8	83	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+8	87	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+8	87	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+9	89	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+9	89	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+12	94	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+12	94	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+9	88	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+9	88	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+13	99	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+13	99	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+9	88	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+9	88	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+8	94	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+8	94	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+9	98	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+9	98	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+8	83	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+8	83	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+8	81	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+8	81	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+8	84	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+8	84	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+7	83	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+7	83	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+9	97	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+9	97	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+7	87	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+7	87	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+8	90	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+8	90	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+9	95	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+9	95	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+9	90	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+9	90	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+320	395	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+320	395	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+8	84	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+8	84	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+14	99	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+14	99	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+11	86	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+11	86	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+8	82	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+8	82	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+8	86	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+8	86	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+12	128	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+12	128	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+10	121	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+10	121	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+12	122	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+12	122	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+11	125	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+11	125	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+10	99	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+10	99	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+13	150	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+13	150	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+16	161	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+16	161	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+13	153	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+13	153	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+19	117	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+19	117	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+7	90	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+7	90	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+7	82	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+7	82	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+9	86	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+9	86	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+7	81	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+7	81	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+7	80	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+7	80	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+7	79	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+7	79	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+8	81	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+8	81	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+331	404	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+331	404	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+8	93	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+8	93	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+11	98	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+11	98	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+9	94	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+9	94	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+9	84	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+9	84	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+7	81	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+7	81	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+9	88	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+9	88	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+8	87	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+8	87	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+7	86	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+7	86	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+9	83	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+9	83	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+7	83	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+7	83	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+7	81	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+7	81	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+7	84	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+7	84	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+7	89	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+7	89	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+8	92	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+8	92	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+7	92	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+7	92	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+10	94	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+10	94	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+8	87	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+8	87	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+7	82	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+7	82	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+9	101	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+9	101	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+10	88	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+10	88	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+7	84	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+7	84	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+9	102	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa
+9	102	0	C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	fb007a13d5f4ddaa

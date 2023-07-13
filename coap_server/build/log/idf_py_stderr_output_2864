@@ -1,0 +1,28 @@
+CMake Error in main/CMakeLists.txt:
+  Cannot find source file:
+
+    C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/main/certs/coap_ca.pem
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+
+
+CMake Error in main/CMakeLists.txt:
+  Cannot find source file:
+
+    C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/main/certs/coap_server.crt
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+
+
+CMake Error in main/CMakeLists.txt:
+  Cannot find source file:
+
+    C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/main/certs/coap_server.key
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
