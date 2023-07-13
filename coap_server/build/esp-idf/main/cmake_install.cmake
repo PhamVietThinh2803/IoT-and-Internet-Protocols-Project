@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/main
+# Install script for directory: C:/Users/viett/Desktop/2022-2/IoT-and-Internet-Protocols-Project/coap_server/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

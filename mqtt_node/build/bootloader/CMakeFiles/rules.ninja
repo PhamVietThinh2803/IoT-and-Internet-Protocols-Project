@@ -299,7 +299,7 @@ rule C_STATIC_LIBRARY_LINKER____idf_main_
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = D:\Espressif\tools\cmake\3.24.0\bin\cmake.exe --regenerate-during-build -SD:\Espressif\frameworks\esp-idf-v5.0.1\components\bootloader\subproject -B"C:\Users\viett\Desktop\2022-2\Smart Home Project\Node Sensor\build\bootloader"
+  command = D:\Espressif\tools\cmake\3.24.0\bin\cmake.exe --regenerate-during-build -SD:\Espressif\frameworks\esp-idf-v5.0.1\components\bootloader\subproject -BC:\Users\viett\Desktop\2022-2\IoT-and-Internet-Protocols-Project\mqtt_node\build\bootloader
   description = Re-running CMake...
   generator = 1
 

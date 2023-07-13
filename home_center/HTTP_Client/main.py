@@ -6,7 +6,7 @@ import asyncio
 
 # HTTP Client GET request to get command from server
 url_get = 'http://e4fd-202-191-58-174.ngrok-free.app/api/v1/3i58kz8UHbZX0v8iWgnJ/rpc?timeout=20000'
-coap_uri = "coap://192.168.0.104/Espressif"
+coap_uri = "coap://192.168.0.112/Espressif"
 # MQTT Broker Parameters
 broker_uri = "test.mosquitto.org"
 port = 8883

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/managed_components/espressif__coap
+# Install script for directory: C:/Users/viett/Desktop/2022-2/IoT-and-Internet-Protocols-Project/coap_server/managed_components/espressif__coap
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

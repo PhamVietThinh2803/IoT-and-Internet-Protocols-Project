@@ -1,4 +1,4 @@
-/* * Data converted from C:/Users/viett/Desktop/2022-2/Smart Home Project/Node Sensor/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from C:/Users/viett/Desktop/2022-2/IoT-and-Internet-Protocols-Project/mqtt_node/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 .section .rodata.embedded

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/viett/Desktop/2022-2/Smart Home Project/Node Sensor/main
+# Install script for directory: C:/Users/viett/Desktop/2022-2/IoT-and-Internet-Protocols-Project/mqtt_node/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

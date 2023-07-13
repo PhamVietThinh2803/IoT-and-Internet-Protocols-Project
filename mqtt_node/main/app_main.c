@@ -54,47 +54,6 @@ extern const uint8_t client_key_pem_end[] asm("_binary_client_key_end");
 extern const uint8_t server_cert_pem_start[] asm("_binary_mosquitto_org_crt_start");
 extern const uint8_t server_cert_pem_end[] asm("_binary_mosquitto_org_crt_end");
 
-/* Function to create message that contain Sensor node's info and data in JSON format */
-char *data_message_gen(void){
-    char *string = NULL;
-    cJSON *info = NULL;
-    cJSON *location = NULL;
-    cJSON *floor = NULL;
-    cJSON *room = NULL;
-    cJSON *data = NULL;
-    cJSON *temperature = NULL;
-    cJSON *humidity = NULL;
-    // Base object
-    cJSON *message = cJSON_CreateObject();
-
-    // Info sub-object
-    info = cJSON_CreateObject();
-    cJSON_AddItemToObject(message, "info", info);
-
-    location = cJSON_CreateString("indoor");
-    cJSON_AddItemToObject(info, "location", location);
-
-    floor = cJSON_CreateString("1");
-    cJSON_AddItemToObject(info, "floor", floor);
-
-    room = cJSON_CreateString("bedroom");
-    cJSON_AddItemToObject(info, "room", room);
-
-    // Data object
-    data = cJSON_CreateObject();
-    cJSON_AddItemToObject(message, "data", data);
-
-    temperature = cJSON_CreateNumber(rand() % 21 + 20);
-    cJSON_AddItemToObject(data, "temperature", temperature);
-
-    humidity = cJSON_CreateNumber(rand() % 31 + 60);
-    cJSON_AddItemToObject(data, "humidity", humidity);
-
-    // JSON message print to string
-    string = cJSON_Print(message);
-    return string;
-}
-
 static void wifi_event_handler(void* arg, esp_event_base_t event_base, int32_t event_id, void* event_data){
     if (event_base == WIFI_EVENT && event_id == WIFI_EVENT_STA_START){
         ESP_LOGI(TAG_WIFI, "connecting to AP ...");
@@ -213,11 +172,22 @@ static void mqtt_event_handler(void *handler_args, esp_event_base_t base, int32_
         ESP_LOGI(TAG_MQTT, "Free memory after recieving: %d bytes", esp_get_free_heap_size());
 
         if (strncmp((event->topic), "ESP32/command" , event->topic_len) == 0){
-            if(strncmp((event->data), "data" , event->data_len) == 0){
-                char *message;
-                message = data_message_gen();
-                msg_id = esp_mqtt_client_publish(client, "ESP32/data", message, 0, 1, 0);
+            if(strncmp((event->data), "data" , event->data_len) == 0){  
+                char* response_message = NULL;
+                cJSON *data = cJSON_CreateObject();
+                cJSON *temperature = NULL;
+                cJSON *humidity = NULL;
+                temperature = cJSON_CreateNumber(rand() % 21 + 20);
+                cJSON_AddItemToObject(data, "temperature", temperature);
+                humidity = cJSON_CreateNumber(rand() % 31 + 60);
+                cJSON_AddItemToObject(data, "humidity", humidity);
+                response_message = cJSON_Print(data);
+                cJSON_Delete(data);
+
+                msg_id = esp_mqtt_client_publish(client, "ESP32/data", response_message, 0, 1, 0);
                 ESP_LOGI(TAG_MQTT, "sent data successful, msg_id = %d", msg_id);
+
+                free(response_message);
             } else if (strncmp((event->data), "On" , event->data_len) == 0){
                 ESP_LOGI(TAG_MQTT, "Set power ON! msg_id = %d", event->msg_id);
                 gpio_set_level(BLINK_GPIO, 1);

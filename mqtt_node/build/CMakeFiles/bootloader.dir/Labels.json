@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "C:/Users/viett/Desktop/2022-2/Smart Home Project/Node Sensor/build/CMakeFiles/bootloader"
+			"file" : "C:/Users/viett/Desktop/2022-2/IoT-and-Internet-Protocols-Project/mqtt_node/build/CMakeFiles/bootloader"
 		},
 		{
-			"file" : "C:/Users/viett/Desktop/2022-2/Smart Home Project/Node Sensor/build/CMakeFiles/bootloader.rule"
+			"file" : "C:/Users/viett/Desktop/2022-2/IoT-and-Internet-Protocols-Project/mqtt_node/build/CMakeFiles/bootloader.rule"
 		},
 		{
-			"file" : "C:/Users/viett/Desktop/2022-2/Smart Home Project/Node Sensor/build/CMakeFiles/bootloader-complete.rule"
+			"file" : "C:/Users/viett/Desktop/2022-2/IoT-and-Internet-Protocols-Project/mqtt_node/build/CMakeFiles/bootloader-complete.rule"
 		},
 		{
-			"file" : "C:/Users/viett/Desktop/2022-2/Smart Home Project/Node Sensor/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+			"file" : "C:/Users/viett/Desktop/2022-2/IoT-and-Internet-Protocols-Project/mqtt_node/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
 		},
 		{
-			"file" : "C:/Users/viett/Desktop/2022-2/Smart Home Project/Node Sensor/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+			"file" : "C:/Users/viett/Desktop/2022-2/IoT-and-Internet-Protocols-Project/mqtt_node/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
 		},
 		{
-			"file" : "C:/Users/viett/Desktop/2022-2/Smart Home Project/Node Sensor/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+			"file" : "C:/Users/viett/Desktop/2022-2/IoT-and-Internet-Protocols-Project/mqtt_node/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
 		},
 		{
-			"file" : "C:/Users/viett/Desktop/2022-2/Smart Home Project/Node Sensor/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+			"file" : "C:/Users/viett/Desktop/2022-2/IoT-and-Internet-Protocols-Project/mqtt_node/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
 		},
 		{
-			"file" : "C:/Users/viett/Desktop/2022-2/Smart Home Project/Node Sensor/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+			"file" : "C:/Users/viett/Desktop/2022-2/IoT-and-Internet-Protocols-Project/mqtt_node/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
 		},
 		{
-			"file" : "C:/Users/viett/Desktop/2022-2/Smart Home Project/Node Sensor/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+			"file" : "C:/Users/viett/Desktop/2022-2/IoT-and-Internet-Protocols-Project/mqtt_node/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
 		},
 		{
-			"file" : "C:/Users/viett/Desktop/2022-2/Smart Home Project/Node Sensor/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+			"file" : "C:/Users/viett/Desktop/2022-2/IoT-and-Internet-Protocols-Project/mqtt_node/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
 		}
 	],
 	"target" : 

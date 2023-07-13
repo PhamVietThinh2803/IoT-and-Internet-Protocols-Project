@@ -32,6 +32,8 @@
 #include "coap3/coap.h"
 #include "cJSON.h"
 
+/* GPIO Pin to built - in LED */
+#define BLINK_GPIO 2
 
 /* FreeRTOS event group to signal when we are connected*/
 static EventGroupHandle_t wifi_event_group;
@@ -41,14 +43,15 @@ static EventGroupHandle_t wifi_event_group;
  */
 #define WIFI_CONNECTED_BIT BIT0
 #define WIFI_FAIL_BIT      BIT1
-#define BLINK_GPIO 2
 static const char *TAG_WIFI = "WIFI TASK";
 static int retry_num = 0;
 
+/* Check if hardware supported CoAP Server */
 #ifndef CONFIG_COAP_SERVER_SUPPORT
 #error COAP_SERVER_SUPPORT NEEDS TO BE ENABLED
 #endif /* COAP_SERVER_SUPPORT */
 #define INITIAL_DATA "HELLO WORLD!"
+
 /* The examples use simple Pre-Shared-Key configuration that you can set via
    'idf.py menuconfig'.
 

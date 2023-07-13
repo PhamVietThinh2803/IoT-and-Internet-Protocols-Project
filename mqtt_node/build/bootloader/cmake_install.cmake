@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/viett/Desktop/2022-2/Smart Home Project/Node Sensor/build/bootloader/esp-idf/cmake_install.cmake")
+  include("C:/Users/viett/Desktop/2022-2/IoT-and-Internet-Protocols-Project/mqtt_node/build/bootloader/esp-idf/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/viett/Desktop/2022-2/Smart Home Project/Node Sensor/build/bootloader/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/viett/Desktop/2022-2/IoT-and-Internet-Protocols-Project/mqtt_node/build/bootloader/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,4 +1,4 @@
-/* * Data converted from C:/Users/viett/Desktop/2022-2/Smart Home Project/coap_server/main/certs/coap_ca.pem
+/* * Data converted from C:/Users/viett/Desktop/2022-2/IoT-and-Internet-Protocols-Project/coap_server/main/certs/coap_ca.pem
  * (null byte appended)
  */
 .data

@@ -1,24 +1,14 @@
 import paho.mqtt.client as mqtt
 import json
-import pandas as pd
 from time import sleep
-from datetime import datetime
-import xlsxwriter
 import requests
 
 # HTTP Client POST request to server THINGSBOARD
-url_post = 'https://demo.thingsboard.io/api/v1/cdnUhlgFN2AlfXoiuWAj/telemetry'
+url_post = 'http://e4fd-202-191-58-174.ngrok-free.app/api/v1/3i58kz8UHbZX0v8iWgnJ/telemetry'
 headers = {'content-type': 'application/json'}
 # MQTT Broker Parameters
 broker_uri = "test.mosquitto.org"
 port = 8883
-df = pd.DataFrame()
-# Create a new xlsx file with name of timestamp
-timestamp = datetime.now().strftime("%d.%m.%Y %H.%M.%S")
-new_workbook = "Logging/{Time}.xlsx".format(Time=timestamp)
-print(new_workbook)
-workbook = xlsxwriter.Workbook(new_workbook)
-workbook.close()
 
 
 # Function to check whether a message is JSON
@@ -44,29 +34,17 @@ def on_message(client, userdata, msg):
     print("Data from topic: " + msg.topic)
     if is_JSON(msg.payload.decode('utf-8')):
         message = json.loads(msg.payload.decode('utf-8'))
-        info = message["info"]
-        location = info["location"]
-        floor = info["floor"]
-        room = info["room"]
-        data = message["data"]
-        temperature = data["temperature"]
-        humidity = data["humidity"]
+        print(message)
+        temperature = message["temperature"]
+        humidity = message["humidity"]
 
-        frame = {
-            "Location": [location],
-            "Floor": [floor],
-            "Room": [room],
-            "Temperature": [temperature],
-            "Humidity": [humidity],
-        }
-        payload = json.dumps({"temperature": temperature, "humidity": humidity})
-        # load data into a DataFrame object:
-        df_temp = pd.DataFrame(frame)
-        df = pd.concat([df, df_temp], ignore_index=True)
-        print(df)
-        df.to_excel(new_workbook)
-        print(payload)
+        payload = json.dumps({"temperature_mqtt": temperature, "humidity_mqtt": humidity})
         r1 = requests.post(url=url_post, data=payload, headers=headers)
+        while r1.status_code != 200:
+            r1 = requests.post(url=url_post, data=payload, headers=headers)
+            print("Retrying send data to Thingsboard")
+        print("Successfully send data to Thingsboard")
+
     else:
         print(msg.payload.decode('utf-8'))
     print("Sleep 5 seconds until send next command to MQTT Node")

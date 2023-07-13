@@ -1,4 +1,4 @@
-/* * Data converted from C:/Users/viett/Desktop/2022-2/Smart Home Project/Node Sensor/Certs/client.crt
+/* * Data converted from C:/Users/viett/Desktop/2022-2/IoT-and-Internet-Protocols-Project/mqtt_node/Certs/client.crt
  * (null byte appended)
  */
 .data
