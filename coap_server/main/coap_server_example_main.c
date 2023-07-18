@@ -209,10 +209,8 @@ static void hnd_espressif_put(coap_resource_t *resource, coap_session_t *session
     /* coap_get_data_large() sets size to 0 on error */
     (void) coap_get_data_large(request, &size, &data, &offset, &total);
     if(strncmp(data, "On", size) == 0){
-        ESP_LOGI(TAG, "Message from Home Center: %s", data);
         gpio_set_level(BLINK_GPIO, 1);
     } else{
-        ESP_LOGI(TAG, "NOT Message from Home Center: %s", data);
         gpio_set_level(BLINK_GPIO, 0);
     }
     if (size == 0) {    /* re-init */
