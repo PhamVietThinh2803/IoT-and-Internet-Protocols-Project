@@ -46,13 +46,13 @@ def on_message(client, userdata, msg):
             r1 = requests.post(url=url_post, data=payload, headers=headers)
         except Exception as e:
             print('Error:', e)
-            retry = retry + 1
-            if retry == 10:
-                print('Configuring MQTT Node to default setting')
-                client.publish("ESP32/command", "default")
         else:
-            print("Successfully send data to Thingsboard")
-            retry = 0
+            if r1.status_code == 200:
+                print("Successfully send data to Thingsboard")
+            else:
+                print('Thingsboard server is off!')
+                print('Waiting ....')
+                sleep(500)
 
     else:
         print(msg.payload.decode('utf-8'))

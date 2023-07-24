@@ -50,7 +50,7 @@ static int retry_num = 0;
 #ifndef CONFIG_COAP_SERVER_SUPPORT
 #error COAP_SERVER_SUPPORT NEEDS TO BE ENABLED
 #endif /* COAP_SERVER_SUPPORT */
-#define INITIAL_DATA "HELLO WORLD!"
+#define INITIAL_DATA "RECEIVED COMMAND!"
 
 /* The examples use simple Pre-Shared-Key configuration that you can set via
    'idf.py menuconfig'.
@@ -210,6 +210,8 @@ static void hnd_espressif_put(coap_resource_t *resource, coap_session_t *session
     (void) coap_get_data_large(request, &size, &data, &offset, &total);
     if(strncmp(data, "On", size) == 0){
         gpio_set_level(BLINK_GPIO, 1);
+        vTaskDelay(5000/portTICK_PERIOD_MS);
+        gpio_set_level(BLINK_GPIO, 0);
     } else{
         gpio_set_level(BLINK_GPIO, 0);
     }

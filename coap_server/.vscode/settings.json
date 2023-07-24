@@ -1,7 +1,0 @@
-{
-    "files.associations": {
-        "memory_resource": "c",
-        "string.h": "c",
-        "string": "c"
-    }
-}

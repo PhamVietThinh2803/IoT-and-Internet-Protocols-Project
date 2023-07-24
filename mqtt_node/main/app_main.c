@@ -195,12 +195,10 @@ static void mqtt_event_handler(void *handler_args, esp_event_base_t base, int32_
                 ESP_LOGI(TAG_MQTT, "Set power OFF! msg_id = %d", event->msg_id);
                 gpio_set_level(BLINK_GPIO, 0);
             } else if (strncmp((event->data), "default" , event->data_len) == 0){
-                int state = 0;
-                while(true){
-                    gpio_set_level(BLINK_GPIO, !state);
+                ESP_LOGI(TAG_MQTT, "Thingsboard server is off! Turn the led off for safety! msg_id = %d", event->msg_id);
+                gpio_set_level(BLINK_GPIO, 0);
                 }
             }
-        }
         break;
 
     case MQTT_EVENT_ERROR: // The client has encountered an error

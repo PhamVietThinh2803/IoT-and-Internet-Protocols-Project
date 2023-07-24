@@ -9,17 +9,8 @@ url_post = 'http://e4fd-202-191-58-174.ngrok-free.app/api/v1/3i58kz8UHbZX0v8iWgn
 headers = {'content-type': 'application/json'}
 
 
-# Function to check whether a message is JSON
-def is_JSON(message):
-    try:
-        json.loads(message)
-    except ValueError as err:
-        return False
-    return True
-
-
 async def main():
-    global df, r1
+    global r1
     protocol = await Context.create_client_context()
 
     request = Message(code=GET, uri='coap://192.168.0.112/Espressif')
@@ -39,9 +30,15 @@ async def main():
             r1 = requests.post(url=url_post, data=payload, headers=headers)
         except Exception as e:
             print(e)
-            print('Status code: ', r1.status_code)
+            print('Thingsboard server is temporary closed. Waiting ...')
+            sleep(500)
         else:
-            print("Successfully send data to Thingsboard")
+            if r1.status_code == 200:
+                print("Successfully send data to Thingsboard")
+            else:
+                print('Thingsboard server is temporary closed.')
+                print('Waiting ...')
+                sleep(500)
         print("Sleep 5 seconds until send next command to CoAP Server")
         sleep(5)
 

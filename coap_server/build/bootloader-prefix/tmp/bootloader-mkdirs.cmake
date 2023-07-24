@@ -4,7 +4,7 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "D:/Espressif/frameworks/esp-idf-v5.0.1/components/bootloader/subproject"
+  "C:/Espressif/frameworks/esp-idf-v5.0.1/components/bootloader/subproject"
   "C:/Users/viett/Desktop/2022-2/IoT-and-Internet-Protocols-Project/coap_server/build/bootloader"
   "C:/Users/viett/Desktop/2022-2/IoT-and-Internet-Protocols-Project/coap_server/build/bootloader-prefix"
   "C:/Users/viett/Desktop/2022-2/IoT-and-Internet-Protocols-Project/coap_server/build/bootloader-prefix/tmp"

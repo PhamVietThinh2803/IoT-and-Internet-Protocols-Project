@@ -2,14 +2,12 @@
 | ----------------- | ----- | -------- | -------- | -------- |
 
 # ESP-MQTT sample application
-(See the README.md file in the upper level 'examples' directory for more information about examples.)
-
-This example connects to the broker URI selected using `idf.py menuconfig` (using mqtt tcp transport) and as a demonstration subscribes/unsubscribes and send a message on certain topic.
+This example connects to the broker URI selected using `idf.py menuconfig` (using mqtt/tcp transport) and as a demonstration subscribes/unsubscribes and send a message on certain topic.
 (Please note that the public broker is maintained by the community so may not be always available, for details please see this [disclaimer](https://iot.eclipse.org/getting-started/#sandboxes))
 
-Note: If the URI equals `FROM_STDIN` then the broker address is read from stdin upon application startup (used for testing)
+Note: If the URI equals `FROM_STDIN` then the broker address is read from stdin upon application startup (used for further application like provisioning)
 
-It uses ESP-MQTT library which implements mqtt client to connect to mqtt broker.
+It uses ESP-MQTT library which implements mqtt client to connect to mqtt broker. 
 
 ## How to use example
 
@@ -20,7 +18,7 @@ This example can be executed on any ESP32 board, the only required interface is 
 ### Configure the project
 
 * Open the project configuration menu (`idf.py menuconfig`)
-* Configure Wi-Fi or Ethernet under "Example Connection Configuration" menu. See "Establishing Wi-Fi or Ethernet Connection" section in [examples/protocols/README.md](../../README.md) for more details.
+* Configure Wi-Fi or Ethernet with your home WiFi SSID and Password under "Example Connection Configuration" menu. 
 
 ### Build and Flash
 
