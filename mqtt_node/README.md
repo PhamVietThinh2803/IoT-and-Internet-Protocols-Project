@@ -17,8 +17,13 @@ This example can be executed on any ESP32 board, the only required interface is 
 
 ### Configure the project
 
-* Open the project configuration menu (`idf.py menuconfig`)
-* Configure Wi-Fi or Ethernet with your home WiFi SSID and Password under "Example Connection Configuration" menu. 
+```
+idf.py menuconfig
+```
+
+Example Connection Configuration  --->
+ * Set WiFi SSID
+ * Set WiFi Password
 
 ### Build and Flash
 

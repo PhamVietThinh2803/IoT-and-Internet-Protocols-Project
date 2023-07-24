@@ -1,10 +1,8 @@
 | Supported Targets | ESP32 | ESP32-C3 | ESP32-S2 | ESP32-S3 |
 | ----------------- | ----- | -------- | -------- | -------- |
 
-
 # CoAP server example
 
-(See the README.md file in the upper level 'examples' directory for more information about examples.)
 This CoAP server example is very simplified adaptation of one of the
 [libcoap](https://github.com/obgm/libcoap) examples.
 
@@ -57,26 +55,9 @@ idf.py -p PORT flash monitor
 See the Getting Started Guide for full steps to configure and use ESP-IDF to build projects.
 
 ## Example Output
-current CoAP server would startup a daemon task,
-and the log is such as the following:
 
-```
-...
-I (332) wifi: mode : sta (30:ae:a4:04:1b:7c)
-I (1672) wifi: n:11 0, o:1 0, ap:255 255, sta:11 0, prof:1
-I (1672) wifi: state: init -> auth (b0)
-I (1682) wifi: state: auth -> assoc (0)
-I (1692) wifi: state: assoc -> run (10)
-I (1692) wifi: connected with huawei_cw, channel 11
-I (1692) wifi: pm start, type: 1
-
-I (2622) event: sta ip: 192.168.3.84, mask: 255.255.255.0, gw: 192.168.3.1
-I (2622) CoAP_server: Connected to AP
-...
-```
-
-If a CoAP client queries the `/Espressif` resource, CoAP server will return `"Hello World!"`
-until a CoAP client does a PUT with different data.
+If a CoAP client queries the `/Espressif` resource, CoAP server will return temperature and humidity data 
+if it is a GET request. To PUT request, CoAP server will process the payload to decide to turn On/Off LED.
 
 ## libcoap Documentation
 This can be found at [libcoap Documentation](https://libcoap.net/documentation.html).
