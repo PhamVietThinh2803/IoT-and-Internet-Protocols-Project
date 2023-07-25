@@ -53,6 +53,3 @@ while True:
                 asyncio.run(put_request())
                 print('Waiting ...')
                 sleep(500)
-
-
-    

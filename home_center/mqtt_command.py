@@ -21,6 +21,8 @@ while True:
         print('Error: ', e)
     else:
         print('Status code: ' + str(r.status_code))
+        if r.status_code == 408:
+            continue
         if r.status_code == 200:
             print(r.json())
             message = json.loads(r.text)

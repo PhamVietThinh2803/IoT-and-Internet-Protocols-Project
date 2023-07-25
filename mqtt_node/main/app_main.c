@@ -197,7 +197,7 @@ static void mqtt_event_handler(void *handler_args, esp_event_base_t base, int32_
             } else if (strncmp((event->data), "default" , event->data_len) == 0){
                 ESP_LOGI(TAG_MQTT, "Thingsboard server is off! Turn the led off for safety! msg_id = %d", event->msg_id);
                 gpio_set_level(BLINK_GPIO, 0);
-                }
+                } 
             }
         break;
 
